@@ -18,14 +18,14 @@ const Counter = () => {
    
    
   return (
-    <div>
+    <div className="bg-slate-500">
       <div>
-        <p>{count}</p>
+        <h1 className="bg-blue-500 text-white p-4">{count}</h1>
         <div>
           <button onClick={resetCount}>Reset</button>
         </div>
         <div>
-          <button onClick={handleIncrement}>+</button>
+          <button className="btn bg-black " onClick={handleIncrement}>+</button>
           <button onClick={handleDecrement}>-</button>
         </div>
       </div>

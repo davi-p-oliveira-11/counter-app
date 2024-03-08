@@ -3,7 +3,9 @@ import Counter from "./components/Counter"
 function App() {
 
   return (
-    <Counter />
+    <div className="bg">
+     <Counter />
+    </div>
   )
 }
 
